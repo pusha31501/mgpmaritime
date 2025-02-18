@@ -1,0 +1,54 @@
+.aboutUs{
+    background-color: var(--background);
+    padding:8%;
+    color: var(--secondary);
+    text-align: center;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+.aboutUs .about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.aboutUs .about-content .title{
+    width: 100%;
+    background-color: var(--secondary);
+    padding: 10px;
+    color: var(--background);
+    margin-bottom: 30px;
+}
+.aboutUs .about-content h2{
+    font-size: 18px;
+}
+.aboutUs .about-content li{
+    font-size: 15px;
+}
+.aboutUs .about-content .about-left ul,.aboutUs .about-content .about-right ul {
+    text-align: left;
+    margin-left: 20px;
+}
+.aboutUs .about-content .about-left ul li, .aboutUs .about-content .about-right ul li{
+    padding: 5px 0;
+}
+.aboutUs .about-content .about-left ul li p{
+    font-style: italic;
+    margin-left: 20px;
+}
+.aboutUs .about-content .about-right ul li ul li{
+    font-style: italic;
+    margin-left: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+        .aboutUs{
+            padding:10px;
+             }
+        .aboutUs .about-content{
+            gap: 2px;
+            }
+            .aboutUs .about-content li{
+                font-size: 12px;
+            }
+}

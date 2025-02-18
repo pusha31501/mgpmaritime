@@ -1,0 +1,66 @@
+.contactUs{
+    background-color: var(--secondary);
+    padding:8%;
+    color: var(--background);
+    text-align: center;
+    display:grid;
+    grid-template-rows: 100px 1fr;
+}
+.contactUs h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactUs .contact-content{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.contact-content .contact-left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    line-height: 2rem;
+    gap:20px
+}
+.contact-content .contact-left .address h2{
+    display: flex;
+    justify-content: left;
+}
+
+.contact-content .contact-right{
+    background-color: var(--background);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.contact-content .contact-right .mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+  }
+  .contact-content .contact-right .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 100%;
+  }
+  .contact-content .contact-right  .gmap_iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+ 
+
+  @media only screen and (max-width: 600px) {
+    .contactUs .contact-content{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+  } 
