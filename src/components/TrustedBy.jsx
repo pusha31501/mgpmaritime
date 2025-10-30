@@ -16,7 +16,7 @@ const TrustedBy = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="font-semibold text-2xl sm:text-3xl pb-2"
+        className="font-semibold text-2xl sm:text-3xl pb-2 text-center"
       >
         Our Major Clients and Affiliation
       </motion.h3>
