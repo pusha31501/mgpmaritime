@@ -33,7 +33,7 @@ import salemPic from "./salem_pic.png";
 import gracePic from "./gracePic.png";
 import markimPic from "./markim.png";
 import mariaPic from "./maria.png";
-import logo from "./logo.svg;";
+import logo from "./logo.svg";
 
 export const company_logos = [
   { logo: vtp_logo, name: "VTP Mining Construction Inc" },
