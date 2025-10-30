@@ -33,6 +33,7 @@ import salemPic from "./salem_pic.png";
 import gracePic from "./gracePic.png";
 import markimPic from "./markim.png";
 import mariaPic from "./maria.png";
+import logo from "./logo.svg;";
 
 export const company_logos = [
   { logo: vtp_logo, name: "VTP Mining Construction Inc" },
@@ -66,6 +67,7 @@ const assets = {
   instagram_icon,
   linkedin_icon,
   logo_dark,
+  logo,
   menu_icon_dark,
   sun_icon,
   moon_icon,
