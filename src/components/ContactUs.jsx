@@ -76,7 +76,7 @@ const ContactUs = () => {
 
         <div>
           <p htmlFor="email" className="mb-2 text-sm font-medium">
-            Your name
+            Your email
           </p>
           <div className="flex max-w-full p-1 gap-2 border border-gray-300 rounded-md">
             <img src={assets.email_icon} alt="" className="pl-2" />
