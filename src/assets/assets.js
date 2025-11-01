@@ -98,7 +98,7 @@ export const teamData = [
   },
   {
     name: "Maria Christine L. Ubaldo",
-    title: "Consultant",
+    title: "Manager",
     image: mariaPic,
   },
 ];
