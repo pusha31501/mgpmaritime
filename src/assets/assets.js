@@ -81,6 +81,11 @@ export const teamData = [
     title: "Operations and Crewing Manager",
     image: salemPic,
   },
+    {
+    name: "Maria Christine L. Ubaldo",
+    title: "Manager",
+    image: mariaPic,
+  },
   {
     name: "Marie Grace P. Valencia",
     title: "Chief Administrative Officer",
@@ -96,9 +101,5 @@ export const teamData = [
     title: "Crewing officer",
     image: markimPic,
   },
-  {
-    name: "Maria Christine L. Ubaldo",
-    title: "Manager",
-    image: mariaPic,
-  },
+
 ];
